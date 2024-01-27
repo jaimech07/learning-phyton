@@ -1,14 +1,15 @@
-'''Crear una calculadora que reciba dos valores 
-por consola, y realice las operaciones aritmeticas basicas'''
+'''Crear una calculadora que reciba dos valores
+por consola, y realice las operaciones aritméticas básicas'''
 
-import os 
+import os
 
 os.system('clear')
 
 #inputs
-print("Ingrese el primer valor")
+print("Ingrese primer valor: ")
 n1 = int(input())
-n2 = int(input("Ingrese el segundo valor "))
+n2 = int(input("Ingrese el segundo valor: \n"))
 suma = n1 + n2
-print("suma:", suma)
+print("Suma:", suma)
+
 print(type(n1))
